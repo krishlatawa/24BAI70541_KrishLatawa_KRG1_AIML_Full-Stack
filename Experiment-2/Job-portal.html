@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JobHub - Job Portal</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">JobHub</h1>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#jobs">Jobs</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="buttons">
+                <button class="btn-login">Login</button>
+                <button class="btn-signup">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Find Your Dream Job</h2>
+            <p>Search through thousands of job opportunities</p>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Job title or keyword">
+                <input type="text" placeholder="Location">
+                <button class="btn-search">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-jobs" id="jobs">
+        <div class="container">
+            <h2>Featured Jobs</h2>
+
+            <div class="filters">
+                <select class="filter-dropdown">
+                    <option>All Categories</option>
+                    <option>Technology</option>
+                    <option>Finance</option>
+                    <option>Design</option>
+                </select>
+
+                <select class="filter-dropdown">
+                    <option>All Locations</option>
+                    <option>Remote</option>
+                    <option>New York</option>
+                    <option>San Francisco</option>
+                </select>
+            </div>
+
+            <div class="jobs-grid">
+
+                <div class="job-card">
+                    <h3>Software Engineer</h3>
+                    <p class="company">Tech Company Inc.</p>
+                    <p class="location">📍 San Francisco, CA</p>
+                    <p class="description">Build amazing web applications using Python and React.</p>
+                    <p class="salary">💰 $100k - $150k</p>
+                    <p class="skills">Skills: Python, React, JavaScript</p>
+                    <button class="btn-apply">Apply Now</button>
+                </div>
+
+                <div class="job-card">
+                    <h3>UI/UX Designer</h3>
+                    <p class="company">Creative Studio</p>
+                    <p class="location">📍 Remote</p>
+                    <p class="description">Design beautiful user interfaces for mobile and web apps.</p>
+                    <p class="salary">💰 $80k - $120k</p>
+                    <p class="skills">Skills: Figma, Adobe XD, UI Design</p>
+                    <button class="btn-apply">Apply Now</button>
+                </div>
+
+                <div class="job-card">
+                    <h3>Data Analyst</h3>
+                    <p class="company">Finance Solutions</p>
+                    <p class="location">📍 New York, NY</p>
+                    <p class="description">Analyze data and create reports to help with business decisions.</p>
+                    <p class="salary">💰 $90k - $130k</p>
+                    <p class="skills">Skills: SQL, Excel, Tableau</p>
+                    <button class="btn-apply">Apply Now</button>
+                </div>
+
+            </div>
+
+            <div class="center">
+                <button class="btn-load-more">Load More Jobs</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats" id="about">
+        <div class="container">
+            <div class="stat-box">
+                <h3>10,000+</h3>
+                <p>Job Listings</p>
+            </div>
+            <div class="stat-box">
+                <h3>5,000+</h3>
+                <p>Companies</p>
+            </div>
+            <div class="stat-box">
+                <h3>50,000+</h3>
+                <p>Successful Placements</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Get the latest job opportunities in your inbox</p>
+
+            <div class="email-form">
+                <input type="email" placeholder="Enter your email">
+                <button class="btn-subscribe">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 JobHub. All rights reserved.</p>
+            <p>Contact us: info@jobhub.com</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
